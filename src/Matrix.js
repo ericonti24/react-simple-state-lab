@@ -19,3 +19,7 @@ export default class Matrix extends Component {
   }
   
 }
+
+Matrix.defaultProps = {
+  values: Array(10).fill(['#F00'])
+}
